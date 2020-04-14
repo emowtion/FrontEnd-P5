@@ -18,6 +18,7 @@ input[type=text] {
   flex-wrap: wrap;
   margin: auto;
   justify-content: space-around;
+  max-width: 900px;
 }
 
 #photo-galery img {
@@ -31,7 +32,4 @@ input[type=text] {
 
 #photo-galery img:hover {
   transform: scale(1.1);
-}
-a {
-  padding: 16px;
 }
