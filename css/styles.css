@@ -24,6 +24,14 @@ input[type=text] {
   padding-top: 30px;
   transition: 1s;
 }
+
+#photo-galery img:hover{
+  filter: grayscale(50%);
+}
+
 #photo-galery img:hover {
   transform: scale(1.1);
+}
+a {
+  padding: 16px;
 }
