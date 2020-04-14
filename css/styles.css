@@ -1,0 +1,29 @@
+form {
+  width: 238px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+input[type=text] {
+  width: 235px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #dddada;
+  border:none;
+}
+
+#photo-galery {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+
+#photo-galery img {
+  padding-top: 30px;
+  transition: 1s;
+}
+#photo-galery img:hover {
+  transform: scale(1.1);
+}
